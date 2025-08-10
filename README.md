@@ -5,6 +5,10 @@ Ideal para criar conteúdos para redes sociais com design elegante e legibilidad
 
 ![Exemplo de imagem gerada](docs/exemplo.png)
 
+Resultado:
+
+![Exemplo de imagem gerada](docs/pensamento_gerado.png)
+
 ## ✨ Funcionalidades
 - Interface gráfica simples usando **Tkinter**
 - Entrada de:
