@@ -25,8 +25,8 @@ Resultado:
 Clone o repositório e instale as dependências:
 
 ```bash
-git clone https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git
-cd SEU_REPOSITORIO
+git clone https://github.com/elizeubarbosaabreu/gerador_de_imagem_de_pensamentos
+cd gerador_de_imagem_de_pensamentos
 pip install -r requirements.txt
 ```
 
