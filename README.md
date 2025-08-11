@@ -87,7 +87,3 @@ O executável será criado na pasta `dist/`.
 ## 📄 Licença
 
 Este projeto está sob a licença MIT. Sinta-se livre para usar e modificar.
-
-
-Se quiser, posso já gerar também o arquivo `requirements.txt` para garantir que qualquer pessoa consiga rodar o projeto sem erros.
-```
