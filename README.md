@@ -1,3 +1,4 @@
+
 # Gerador de Imagens de Pensamentos
 
 Aplicativo gráfico em **Python** que cria imagens verticais (1080x1920) com um pensamento, o nome do autor e um fundo desfocado.  
@@ -22,11 +23,31 @@ Resultado:
 
 ## 📦 Instalação
 
-Clone o repositório e instale as dependências:
-
+### 1️⃣ Clonar o repositório
 ```bash
 git clone https://github.com/elizeubarbosaabreu/gerador_de_imagem_de_pensamentos
 cd gerador_de_imagem_de_pensamentos
+````
+
+### 2️⃣ Criar um ambiente virtual (recomendado)
+
+No **Windows**:
+
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
+
+No **Linux/Mac**:
+
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+### 3️⃣ Instalar as dependências
+
+```bash
 pip install -r requirements.txt
 ```
 
@@ -50,11 +71,13 @@ A imagem final será salva com resolução de **1080x1920**, pronta para uso em 
 Para distribuir seu aplicativo sem exigir que o usuário instale Python, use o [PyInstaller](https://pyinstaller.org/).
 
 Instale o PyInstaller:
+
 ```bash
 pip install pyinstaller
 ```
 
 Gere o executável (sem console aberto junto):
+
 ```bash
 pyinstaller --noconsole gerador_pensamentos.py
 ```
@@ -62,4 +85,9 @@ pyinstaller --noconsole gerador_pensamentos.py
 O executável será criado na pasta `dist/`.
 
 ## 📄 Licença
+
 Este projeto está sob a licença MIT. Sinta-se livre para usar e modificar.
+
+
+Se quiser, posso já gerar também o arquivo `requirements.txt` para garantir que qualquer pessoa consiga rodar o projeto sem erros.
+```
